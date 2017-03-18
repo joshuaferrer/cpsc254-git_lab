@@ -2,11 +2,15 @@
 #include <fstream>
 #include <string>
 
-int main()
+void totlaChars()
 {
 	int totalChar = 0;
 	std::string line;
-	std::fstream readin ("sample.txt");
+	std::string filename;
+	std::cout << "What is the file name: ";
+	std::cin >>> filename;
+
+	std::fstream readin (filename.c_str());
 	
 	if (readin.is_open())
 	{
