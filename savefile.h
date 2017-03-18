@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void savenote()  {
+void savefile()  {
 	string title;
 	cout << "Enter a title for the note: ";
 	getline(cin, title);
