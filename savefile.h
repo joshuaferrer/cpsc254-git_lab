@@ -15,4 +15,5 @@ void savefile()  {
 
 	ofstream out(title.append(".txt").c_str());
 	out << reminder;
+	out.close();
 }
