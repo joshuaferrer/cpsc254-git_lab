@@ -1,4 +1,5 @@
 #include <iostream>
+#include "func15.h"
 #include "factorial.h"
 using namespace std;
 int main()
@@ -58,7 +59,8 @@ int main()
 		case 13: reverse();
 			break;
 		case 14: break;
-		case 15: break;
+		case 15: tempConvert();
+		         break;
 		case 16: break;
 		case 17: break;
 		case 18: break;
