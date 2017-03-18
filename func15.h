@@ -1,4 +1,5 @@
-tempConvert(){
+using namespace std;
+void tempConvert(){
 	//convert f to c and c to f
 
 	int num, selection;
