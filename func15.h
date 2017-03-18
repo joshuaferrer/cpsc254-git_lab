@@ -1,7 +1,4 @@
-#include <iostream>
-using namespace std;
-
-int main(){
+tempConvert(){
 	//convert f to c and c to f
 
 	int num, selection;
