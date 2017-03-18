@@ -54,7 +54,8 @@ int main()
 		case 10: break;
 		case 11: break;
 		case 12: break;
-		case 13: break;
+		case 13: reverse();
+			break;
 		case 14: break;
 		case 15: break;
 		case 16: break;
