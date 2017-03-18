@@ -60,7 +60,8 @@ int main()
 		case 16: break;
 		case 17: break;
 		case 18: break;
-		case 19: break;
+		case 19: factorial();
+			 break;
 		case 20: break;
 		case 21: break;
 		case 22: break;
