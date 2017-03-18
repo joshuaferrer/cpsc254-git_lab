@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main() {
+void linecounter() {
   int counter = 0;
   string line;
   
@@ -19,11 +19,7 @@ int main() {
   else
     cout << "unable to open file";
   
-  cout << "Number of lines: " << counter << endl;
-  
-  return 0;
-  
-  
-
+  cout << "Number of lines: " << counter << endl;  
+ 
 }
 
