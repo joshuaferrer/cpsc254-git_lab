@@ -1,9 +1,14 @@
 
+
+#ifndef salesTax_h
+#define salesTax_h
+
+
 #include <iostream>
 #include <iomanip>
 
- void salesTax(){
-   
+void salesTax(){
+    
     double salesTax, itemCost;
     
     std::cout << "What the current sales tax percent for your area?: ";
@@ -27,3 +32,4 @@
     std::cout <<"Your total price to pay is $"  <<itemCost;
     
 }
+#endif /* salesTax_h */
