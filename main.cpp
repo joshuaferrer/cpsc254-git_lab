@@ -76,7 +76,8 @@ int main()
 		case 27: break;
 		case 28: break;
 		case 29: break;
-		case 30: break;
+		case 30: displayseason();
+			 break;
 		default: cout<<"Not a valid choice.\n"; break;
 	}
 	
