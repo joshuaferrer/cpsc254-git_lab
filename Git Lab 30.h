@@ -46,21 +46,18 @@ void displayseason(){
 	std::istringstream iss(time_array[2]);
 	iss>>day;
 	//split the season by month. Mar 20 ,(spring) Apr May Jun 21, (summer) Jul Aug Sep 22, (fall) Oct Nov Dec 21, (winter) Jan Feb
-	switch (time_array[1]){
-		case "Apr": current_season="Spring";break;
-		case "May": current_season="Spring";break;
-		case "Jun": if(day>=21){current_season = "Summer";} else{ current_season = "Spring"; } break;
-		case "Jul": current_season = "Summer";break;
-		case "Aug": current_season = "Summer";break;
-		case "Sep": if(day>=22){current_season = "Fall";} else{ current_season = "Summer"; } break;
-		case "Oct": current_season = "Fall";break;
-		case "Nov": current_season = "Fall";break;
-		case "Dec": if(day>=21){current_season = "Winter";} else{ current_season = "Fall"; } break;
-		case "Jan": current_season = "Winter";break;
-		case "Feb": current_season = "Winter";break;
-		case "Mar": if(day>=20){current_season = "Spring";} else{ current_season = "Winter"; } break;
-		default: current_season = "No Season?";
-	}
+		if(time_array[1] ==  "Apr"){ current_season="Spring";}
+		if(time_array[1] ==  "May"){ current_season="Spring";}
+		if(time_array[1] ==  "Jun"){ if(day>=21){current_season = "Summer";} else{ current_season = "Spring"; } }
+		if(time_array[1] ==  "Jul"){ current_season = "Summer";}
+		if(time_array[1] ==  "Aug"){ current_season = "Summer";}
+		if(time_array[1] ==  "Sep"){ if(day>=22){current_season = "Fall";} else{ current_season = "Summer"; } }
+		if(time_array[1] ==  "Oct"){ current_season = "Fall";}
+		if(time_array[1] ==  "Nov"){ current_season = "Fall";}
+		if(time_array[1] ==  "Dec"){ if(day>=21){current_season = "Winter";} else{ current_season = "Fall"; } }
+		if(time_array[1] ==  "Jan"){ current_season = "Winter";}
+		if(time_array[1] ==  "Feb"){ current_season = "Winter";}
+		if(time_array[1] ==  "Mar"){ if(day>=20){current_season = "Spring";} else{ current_season = "Winter"; } }
 	std::cout<<current_season;
 }
 
