@@ -29,8 +29,6 @@ std::vector<std::string> split(std::string S, char C){ //split the string into m
 	return results;
 }
 	
-	
-
 void displayseason(){
 	time_t current_time; //define variable of type time
 	current_time = time(NULL); //get current time
