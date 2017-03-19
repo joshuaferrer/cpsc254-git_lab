@@ -35,11 +35,7 @@ void displayseason(){
 	time_t current_time; //define variable of type time
 	current_time = time(NULL); //get current time
 	std::string time_string = ctime(&current_time); //turn the time into a string at current time
-	std::cout<<time_string;
 	std::vector<std::string> time_array = split(time_string, ' ');
-	for(int i = 0; i< time_array.size(); ++i){ // 0=Day of week, 1= Month, 2=Day of month, 3= Time of format 23:59:59, 4=Year
-		std::cout<<time_array[i]<<std::endl;
-	}
 	std::string current_season; //init season string
 	//turn the string of day into an int
 	int day;
