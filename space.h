@@ -1,9 +1,11 @@
-#include <iostream>
+#ifndef SPACE_H
+#define SPACE_H
+#include "main.cpp"
 #include <fstream>
 using namespace std;
 
-int main(){
-  ifstream file;
+void spacecount(ifstream file){
+ 
   file.open("contents.txt");
   char ch;
   int count =0;
@@ -15,5 +17,5 @@ int main(){
     }
   cout << "number of blank spaces in file are " << count;
   file.close();
-return 0;
 }
+#endif
