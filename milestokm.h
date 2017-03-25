@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int converstionMilesToKM (){
+int conversionMilesToKM (){
 
 double miles;
 
