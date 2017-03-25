@@ -3,7 +3,10 @@
 #include "factorial.h"
 #include "Git Lab 30.h"
 #include "Magic8Ball.h"
+#include "salesTax.h
+#include "randomNumGenerator.h"
 using namespace std;
+
 int main()
 {
 	int choice;
@@ -53,7 +56,8 @@ int main()
 		case 5: break;
 		case 6: break;
 		case 7: break;
-		case 8: break;
+        case 8: salesTax();
+            break;
 		case 9: break;
 		case 10: break;
 		case 11: break;
