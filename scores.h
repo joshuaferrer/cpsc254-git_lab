@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+void averageScores()
 {
 	ifstream inputStream("scores.txt");
 	
