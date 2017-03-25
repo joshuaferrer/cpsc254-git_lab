@@ -27,6 +27,7 @@
 
 
 #include "printDate.h"
+#include "surface.h"
 
 using namespace std;
 int main()
