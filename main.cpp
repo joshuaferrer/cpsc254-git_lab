@@ -2,7 +2,7 @@
 #include "func15.h"
 #include "factorial.h"
 #include "Git Lab 30.h"
-#include "salesTax.h
+#include "salesTax.h"
 #include "randomNumGenerator.h"
 #include "areaSurfaceCube.h"
 using namespace std;
