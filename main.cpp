@@ -20,7 +20,7 @@
 #include "reverse_int.h"
 #include "battingAverage.h"
 #include "countWords.h"
-
+#include "printDate.h"
 using namespace std;
 int main()
 {
@@ -66,7 +66,7 @@ int main()
 	
 	switch (choice){
 		case 1: break;
-		case 2: break;
+		case 2: printDate();
 		case 3: randomNumGenerator();
 			break;
 		case 4: UTCtime();
