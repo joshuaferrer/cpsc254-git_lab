@@ -3,17 +3,11 @@
 #include "factorial.h"
 #include "lowercase.h"
 #include "UTC.h"
-<<<<<<< HEAD
-#include "salesTax.h"
-#include "randomNumGenerator.h"
-#include "areaSurfaceCube.h"
-=======
 #include "Git Lab 30.h"
 #include "salesTax.h"
 #include "randomNumGenerator.h"
 #include "areaSurfaceCube.h"
 
->>>>>>> 4dc0d30a4767439d77ab3eae361d65a00bb49739
 #include "digit_to_word.h"
 #include "salesTax.h"
 #include "savefile.h"
@@ -25,13 +19,15 @@
 #include "blink.h"
 #include "reverse_int.h"
 #include "battingAverage.h"
-<<<<<<< HEAD
-#include "surface.h"
-
-=======
 #include "countWords.h"
+
+#include "VolumeOfCubes.h"
+
+
+
+
 #include "printDate.h"
->>>>>>> 4dc0d30a4767439d77ab3eae361d65a00bb49739
+
 using namespace std;
 int main()
 {
@@ -69,6 +65,7 @@ int main()
 	\n29) Print a random fruit\
 	\n30) Print the current season\
 	\n31) Print the surface area of a cube\
+	\n32) Print the volume of the cube\
 	\n";
 	
 	
@@ -94,11 +91,7 @@ int main()
 		case 10: name_story()
 			break;
 		case 11: battingAverage();break;
-<<<<<<< HEAD
-		case 12: break;
-=======
 		case 12: savefile(); break;
->>>>>>> 4dc0d30a4767439d77ab3eae361d65a00bb49739
 		
 			break;
 		case 14: break;
@@ -113,12 +106,8 @@ int main()
 			 break;
 		case 20: break;
 		case 21: countWords();
-<<<<<<< HEAD
-	        case 22: surfaceArea();
+          	case 22: surfaceArea();
 	                 break;
-=======
-		case 22: break;
->>>>>>> 4dc0d30a4767439d77ab3eae361d65a00bb49739
 		case 23: break;
 		case 24: break;
 		case 25: countingLowercase();
@@ -131,6 +120,8 @@ int main()
 		case 30: displayseason();
 			 break;
 		case 31: areaSurfaceCube();
+			break;
+		case 32: VolumeOfcubes();
 		default: cout<<"Not a valid choice.\n"; break;
 	}
 	
