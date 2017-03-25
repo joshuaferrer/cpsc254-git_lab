@@ -4,9 +4,11 @@
 #include "Git Lab 30.h"
 #include "salesTax.h"
 #include "savefile.h"
+#include "Magic8Ball.h"
 #include "randomNumGenerator.h"
 
 using namespace std;
+
 int main()
 {
 	int choice;
@@ -69,7 +71,8 @@ int main()
 		case 15: tempConvert();
 		         break;
 		case 16: break;
-		case 17: break;
+		case 17: magic8ball();
+			break;
 		case 18: break;
 		case 19: factorial();
 			 break;
