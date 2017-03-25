@@ -3,7 +3,7 @@
 #include "factorial.h"
 #include "lowercase.cpp"
 #include "UTC.h"
-#include "Git Lab 30.h"
+
 #include "digit_to_word.h"
 #include "salesTax.h"
 #include "savefile.h"
@@ -95,11 +95,11 @@ int main()
 		case 22: break;
 		case 23: break;
 		case 24: break;
-		case 25: break;
+		case 25: countingLowercase();
+ 		break;
 		case 26: break;
 		case 27: break;
-		case 28: countingLowercase();
-			 break;
+		case 28:break;
 		case 29: break;
 		case 30: displayseason();
 			 break;
