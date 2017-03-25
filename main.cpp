@@ -7,7 +7,7 @@
 #include "salesTax.h"
 #include "randomNumGenerator.h"
 #include "areaSurfaceCube.h"
-
+#include "checkChars.h"
 #include "digit_to_word.h"
 #include "salesTax.h"
 #include "savefile.h"
@@ -64,7 +64,7 @@ int main()
 	cin >> choice;
 	
 	switch (choice){
-		case 1: break;
+		case 1:totalChars();  break;
 		case 2: break;
 		case 3: randomNumGenerator();
 			break;
