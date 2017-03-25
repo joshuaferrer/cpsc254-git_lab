@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main()
+void countWords()
 {	
 	char c;
 	int word = 0;
