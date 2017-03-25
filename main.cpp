@@ -1,10 +1,21 @@
 #include <iostream>
 #include "func15.h"
 #include "factorial.h"
+#include "UTC.h"
 #include "Git Lab 30.h"
-#include "salesTax.h
+
+#include "digit_to_word.h"
+
+#include "salesTax.h"
+#include "savefile.h"
+#include "Magic8Ball.h"
 #include "randomNumGenerator.h"
 #include "linecounter.h"
+#include "milestokm.h"
+#include "Name_Story.h"
+#include "blink.h"
+#include "reverse_int.h"
+
 using namespace std;
 int main()
 {
@@ -50,15 +61,24 @@ int main()
 	switch (choice){
 		case 1: break;
 		case 2: break;
-		case 3: break;
-		case 4: break;
-		case 5: break;
+		case 3: randomNumGenerator();
+			break;
+		case 4: UTCtime();
+		case 5: blink();
+			break;
 		case 6: break;
+
 		case 7: break;
+		case 8: break;
+
+		case 7: converstionMilesToKM ();
+			break;
         case 8: salesTax();
             break;
+
 		case 9: break;
-		case 10: break;
+		case 10: name_story()
+			break;
 		case 11: break;
 		case 12: break;
 		case 13: reverse();
@@ -68,7 +88,8 @@ int main()
 		         break;
 		case 16: break;
 		case 17: break;
-		case 18: break;
+		case 18: dothing();
+			break;
 		case 19: factorial();
 			 break;
 		case 20: break;
