@@ -22,7 +22,12 @@
 #include "countWords.h"
 
 #include "VolumeOfCubes.h"
+<<<<<<< HEAD
 
+=======
+#include "checkChars.h"
+#include "space.h"
+>>>>>>> 1563cbfc7c50c873eeacebe2aec7cb504baa1469
 
 
 
@@ -115,7 +120,9 @@ int main()
  		break;
 		case 26: linecounter();
 			 break;
-		case 27: break;
+		case 27: 
+		spacecount();
+			break;
 		case 28:break;
 		case 29: break;
 		case 30: displayseason();
