@@ -71,7 +71,7 @@ int main()
 		case 7: break;
 		case 8: break;
 
-		case 7: converstionMilesToKM ();
+		case 7: conversionMilesToKM ();
 			break;
         case 8: salesTax();
             break;
