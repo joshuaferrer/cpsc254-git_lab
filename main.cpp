@@ -1,7 +1,7 @@
 #include <iostream>
 #include "func15.h"
 #include "factorial.h"
-#include "lowercase.cpp"
+#include "lowercase.h"
 #include "UTC.h"
 
 #include "digit_to_word.h"
