@@ -19,7 +19,6 @@
 #include "reverse_int.h"
 #include "battingAverage.h"
 
-
 using namespace std;
 int main()
 {
@@ -84,7 +83,7 @@ int main()
 		case 9: break;
 		case 10: name_story()
 			break;
-		case 11: break;
+		case 11: battingAverage();break;
 		case 12: break;
 		
 			break;
