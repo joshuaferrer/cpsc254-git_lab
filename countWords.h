@@ -1,18 +1,20 @@
 #include<iostream>
+#include<fstream>
+#include<string>
 using namespace std;
 
 void countWords()
 {	
-	char c;
+	ifstream file;
+	string name, content;
 	int word = 0;
-	cout << "Enter a sentence." << endl;
-	cin.get(c);
-	
-	while(c != '\n')
+	cout << "Enter the file's name: ";
+	getline(cin, file);
+	file.open(name.txt);
+	while(file >> content)
 	{
-		if(c == ' ')
-			word++;
-		cin.get(c);
+		word++;
 	}
-	cout << "There are " << word + 1 << " word(s) in your sentence." << endl;	
+	cout << "There are " << word + 1 << " word(s) in your file." << endl;
+	file.close();	
 }
