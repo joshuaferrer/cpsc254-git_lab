@@ -3,6 +3,11 @@
 #include "factorial.h"
 #include "lowercase.cpp"
 #include "UTC.h"
+#include "Git Lab 30.h"
+#include "salesTax.h"
+#include "randomNumGenerator.h"
+#include "areaSurfaceCube.h"
+
 #include "digit_to_word.h"
 #include "salesTax.h"
 #include "savefile.h"
@@ -50,6 +55,7 @@ int main()
 	\n28) Print a random color\
 	\n29) Print a random fruit\
 	\n30) Print the current season\
+	\n31) Print the surface area of a cube\
 	\n";
 	
 	
@@ -103,6 +109,7 @@ int main()
 		case 29: break;
 		case 30: displayseason();
 			 break;
+		case 31: areaSurfaceCube();
 		default: cout<<"Not a valid choice.\n"; break;
 	}
 	
