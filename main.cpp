@@ -20,12 +20,14 @@
 #include "reverse_int.h"
 #include "battingAverage.h"
 #include "countWords.h"
-<<<<<<< HEAD
-#include "surface.h"
 
-=======
+#include "VolumeOfCubes.h"
+
+
+
+
 #include "printDate.h"
->>>>>>> d40304b03eb9801b113be68616840fefcc0fae9f
+
 using namespace std;
 int main()
 {
@@ -63,6 +65,7 @@ int main()
 	\n29) Print a random fruit\
 	\n30) Print the current season\
 	\n31) Print the surface area of a cube\
+	\n32) Print the volume of the cube\
 	\n";
 	
 	
@@ -71,11 +74,7 @@ int main()
 	
 	switch (choice){
 		case 1: break;
-<<<<<<< HEAD
-		case 2: break;
-=======
 		case 2: printDate();
->>>>>>> d40304b03eb9801b113be68616840fefcc0fae9f
 		case 3: randomNumGenerator();
 			break;
 		case 4: UTCtime();
@@ -92,31 +91,23 @@ int main()
 		case 10: name_story()
 			break;
 		case 11: battingAverage();break;
-<<<<<<< HEAD
-		case 12: break;
-=======
 		case 12: savefile(); break;
->>>>>>> d40304b03eb9801b113be68616840fefcc0fae9f
 		
 			break;
 		case 14: break;
 		case 15: tempConvert();
 		         break;
 		case 16: break;
-		case 17: break;
+		case 17: magic8ball();
+			break;
 		case 18: dothing();
 			break;
 		case 19: factorial();
 			 break;
 		case 20: break;
 		case 21: countWords();
-<<<<<<< HEAD
-		case 22:
-		  surfaceArea();
-		  break;
-=======
-		case 22: break;
->>>>>>> d40304b03eb9801b113be68616840fefcc0fae9f
+         	case 22: surfaceArea();
+              	     break;
 		case 23: break;
 		case 24: break;
 		case 25: countingLowercase();
@@ -129,6 +120,8 @@ int main()
 		case 30: displayseason();
 			 break;
 		case 31: areaSurfaceCube();
+			break;
+		case 32: VolumeOfcubes();
 		default: cout<<"Not a valid choice.\n"; break;
 	}
 	
