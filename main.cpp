@@ -19,6 +19,9 @@
 #include "reverse_int.h"
 #include "battingAverage.h"
 #include "countWords.h"
+#include "VolumeOfCubes.h"
+
+
 
 using namespace std;
 int main()
@@ -57,6 +60,7 @@ int main()
 	\n29) Print a random fruit\
 	\n30) Print the current season\
 	\n31) Print the surface area of a cube\
+	\n32) Print the volume of the cube\
 	\n";
 	
 	
@@ -111,6 +115,8 @@ int main()
 		case 30: displayseason();
 			 break;
 		case 31: areaSurfaceCube();
+			break;
+		case 32: VolumeOfcubes();
 		default: cout<<"Not a valid choice.\n"; break;
 	}
 	
