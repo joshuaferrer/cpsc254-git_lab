@@ -1,24 +1,25 @@
 #include <iostream>
 #include "func15.h"
 #include "factorial.h"
+#include "lowercase.h"
 #include "UTC.h"
-#include "Git Lab 30.h"
+
+#include "salesTax.h"
+#include "randomNumGenerator.h"
+#include "areaSurfaceCube.h"
 
 #include "digit_to_word.h"
-
 #include "salesTax.h"
 #include "savefile.h"
 #include "Magic8Ball.h"
 #include "randomNumGenerator.h"
+#include "linecounter.h"
 #include "milestokm.h"
 #include "Name_Story.h"
 #include "blink.h"
-<<<<<<< HEAD
-#include "surface.h"
-=======
 #include "reverse_int.h"
-
->>>>>>> 48b25e5632b182337093409f21c7207f85fe6d52
+#include "battingAverage.h"
+#include "surface.h"
 
 using namespace std;
 int main()
@@ -56,6 +57,7 @@ int main()
 	\n28) Print a random color\
 	\n29) Print a random fruit\
 	\n30) Print the current season\
+	\n31) Print the surface area of a cube\
 	\n";
 	
 	
@@ -65,25 +67,14 @@ int main()
 	switch (choice){
 		case 1: break;
 		case 2: break;
-<<<<<<< HEAD
-		case 3: break;
-=======
 		case 3: randomNumGenerator();
 			break;
->>>>>>> 48b25e5632b182337093409f21c7207f85fe6d52
 		case 4: UTCtime();
 		case 5: blink();
 			break;
 		case 6: break;
 
-		case 7: break;
-		case 8: break;
-
-<<<<<<< HEAD
-		case 7: converstionMilesToKM ();
-=======
 		case 7: conversionMilesToKM ();
->>>>>>> 48b25e5632b182337093409f21c7207f85fe6d52
 			break;
         case 8: salesTax();
             break;
@@ -91,9 +82,9 @@ int main()
 		case 9: break;
 		case 10: name_story()
 			break;
-		case 11: break;
+		case 11: battingAverage();break;
 		case 12: break;
-		case 13: reverse();
+		
 			break;
 		case 14: break;
 		case 15: tempConvert();
@@ -105,22 +96,21 @@ int main()
 		case 19: factorial();
 			 break;
 		case 20: break;
-		case 21: break;
-<<<<<<< HEAD
+		case 21: countWords();
 	        case 22: surfaceArea();
-		  break;
-=======
-		case 22: break;
->>>>>>> 48b25e5632b182337093409f21c7207f85fe6d52
+	                 break;
 		case 23: break;
 		case 24: break;
-		case 25: break;
-		case 26: break;
+		case 25: countingLowercase();
+ 		break;
+		case 26: linecounter();
+			 break;
 		case 27: break;
-		case 28: break;
+		case 28:break;
 		case 29: break;
 		case 30: displayseason();
 			 break;
+		case 31: areaSurfaceCube();
 		default: cout<<"Not a valid choice.\n"; break;
 	}
 	
