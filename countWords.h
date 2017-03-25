@@ -15,6 +15,6 @@ void countWords()
 	{
 		word++;
 	}
-	cout << "There are " << word + 1 << " word(s) in your sentence." << endl;
+	cout << "There are " << word + 1 << " word(s) in your file." << endl;
 	file.close();	
 }
