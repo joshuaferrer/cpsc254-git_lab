@@ -9,7 +9,7 @@
 #include "randomNumGenerator.h"
 #include "milestokm.h"
 #include "Name_Story.h"
-
+#include "blink.h"
 
 using namespace std;
 
@@ -59,7 +59,8 @@ int main()
 		case 2: break;
 		case 3: break;
 		case 4: UTCtime();
-		case 5: break;
+		case 5: blink();
+			break;
 		case 6: break;
 		case 7: converstionMilesToKM ();
 			break;
