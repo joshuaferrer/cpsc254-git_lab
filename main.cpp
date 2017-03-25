@@ -9,6 +9,7 @@
 #include "randomNumGenerator.h"
 #include "milestokm.h"
 #include "Name_Story.h"
+#include "scores.h"
 
 
 using namespace std;
@@ -65,7 +66,9 @@ int main()
 			break;
         case 8: salesTax();
             break;
-		case 9: break;
+		case 9:
+			averageScores();
+		 break;
 		case 10: name_story()
 			break;
 		case 11: break;
