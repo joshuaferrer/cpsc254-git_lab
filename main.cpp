@@ -22,7 +22,7 @@
 #include "countWords.h"
 
 #include "VolumeOfCubes.h"
-
+#include "checkChars.h"
 
 
 
@@ -73,7 +73,8 @@ int main()
 	cin >> choice;
 	
 	switch (choice){
-		case 1: break;
+		case 1:totalChars();
+			  break;
 		case 2: printDate();
 		case 3: randomNumGenerator();
 			break;
