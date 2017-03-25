@@ -10,6 +10,5 @@ void surfaceArea() {
   cin >> radius;
   area = 4.0 * 3.14 * pow(radius, 2);
   cout <<"Surface area is: " << area  << endl;
-  return 0;
 }
 

@@ -13,7 +13,12 @@
 #include "milestokm.h"
 #include "Name_Story.h"
 #include "blink.h"
+<<<<<<< HEAD
 #include "surface.h"
+=======
+#include "reverse_int.h"
+
+>>>>>>> 48b25e5632b182337093409f21c7207f85fe6d52
 
 using namespace std;
 int main()
@@ -60,7 +65,12 @@ int main()
 	switch (choice){
 		case 1: break;
 		case 2: break;
+<<<<<<< HEAD
 		case 3: break;
+=======
+		case 3: randomNumGenerator();
+			break;
+>>>>>>> 48b25e5632b182337093409f21c7207f85fe6d52
 		case 4: UTCtime();
 		case 5: blink();
 			break;
@@ -69,7 +79,11 @@ int main()
 		case 7: break;
 		case 8: break;
 
+<<<<<<< HEAD
 		case 7: converstionMilesToKM ();
+=======
+		case 7: conversionMilesToKM ();
+>>>>>>> 48b25e5632b182337093409f21c7207f85fe6d52
 			break;
         case 8: salesTax();
             break;
@@ -92,8 +106,12 @@ int main()
 			 break;
 		case 20: break;
 		case 21: break;
+<<<<<<< HEAD
 	        case 22: surfaceArea();
 		  break;
+=======
+		case 22: break;
+>>>>>>> 48b25e5632b182337093409f21c7207f85fe6d52
 		case 23: break;
 		case 24: break;
 		case 25: break;
