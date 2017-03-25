@@ -90,7 +90,8 @@ int main()
 		case 15: tempConvert();
 		         break;
 		case 16: break;
-		case 17: break;
+		case 17: magic8ball();
+			break;
 		case 18: dothing();
 			break;
 		case 19: factorial();
