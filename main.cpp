@@ -20,8 +20,12 @@
 #include "reverse_int.h"
 #include "battingAverage.h"
 #include "countWords.h"
+<<<<<<< HEAD
 #include "surface.h"
 
+=======
+#include "printDate.h"
+>>>>>>> d40304b03eb9801b113be68616840fefcc0fae9f
 using namespace std;
 int main()
 {
@@ -67,7 +71,11 @@ int main()
 	
 	switch (choice){
 		case 1: break;
+<<<<<<< HEAD
 		case 2: break;
+=======
+		case 2: printDate();
+>>>>>>> d40304b03eb9801b113be68616840fefcc0fae9f
 		case 3: randomNumGenerator();
 			break;
 		case 4: UTCtime();
@@ -84,7 +92,11 @@ int main()
 		case 10: name_story()
 			break;
 		case 11: battingAverage();break;
+<<<<<<< HEAD
 		case 12: break;
+=======
+		case 12: savefile(); break;
+>>>>>>> d40304b03eb9801b113be68616840fefcc0fae9f
 		
 			break;
 		case 14: break;
@@ -98,9 +110,13 @@ int main()
 			 break;
 		case 20: break;
 		case 21: countWords();
+<<<<<<< HEAD
 		case 22:
 		  surfaceArea();
 		  break;
+=======
+		case 22: break;
+>>>>>>> d40304b03eb9801b113be68616840fefcc0fae9f
 		case 23: break;
 		case 24: break;
 		case 25: countingLowercase();
