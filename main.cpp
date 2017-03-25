@@ -4,6 +4,7 @@
 #include "Git Lab 30.h"
 #include "salesTax.h
 #include "randomNumGenerator.h"
+#include "linecounter.h"
 using namespace std;
 int main()
 {
@@ -76,7 +77,8 @@ int main()
 		case 23: break;
 		case 24: break;
 		case 25: break;
-		case 26: break;
+		case 26: linecounter();
+			 break;
 		case 27: break;
 		case 28: break;
 		case 29: break;
