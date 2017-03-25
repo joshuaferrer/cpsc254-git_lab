@@ -3,11 +3,9 @@
 #include "factorial.h"
 #include "lowercase.h"
 #include "UTC.h"
-
 #include "salesTax.h"
 #include "randomNumGenerator.h"
 #include "areaSurfaceCube.h"
-
 #include "digit_to_word.h"
 #include "salesTax.h"
 #include "savefile.h"
