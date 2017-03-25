@@ -1,16 +1,14 @@
+#ifndef countingLowercase_H
+#define countingLowercase_H
 #include <iostream>
 #include <string>
 #include <fstream>
 #include <cctype>
+#include "main.cpp"
 using namespace std;
-void counting_lowercase();
-int main()
-{
-counting_lowercase();
-return 0;
-}
 
-void counting_lowercase()
+
+void countingLowercase()
 {
 int countLow=0;
 char next;
@@ -28,6 +26,6 @@ return;
 
 }
 
-
+#endif
 
 

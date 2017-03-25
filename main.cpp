@@ -3,9 +3,17 @@
 #include "factorial.h"
 #include "lowercase.h"
 #include "UTC.h"
+<<<<<<< HEAD
 #include "salesTax.h"
 #include "randomNumGenerator.h"
 #include "areaSurfaceCube.h"
+=======
+#include "Git Lab 30.h"
+#include "salesTax.h"
+#include "randomNumGenerator.h"
+#include "areaSurfaceCube.h"
+
+>>>>>>> 4dc0d30a4767439d77ab3eae361d65a00bb49739
 #include "digit_to_word.h"
 #include "salesTax.h"
 #include "savefile.h"
@@ -17,8 +25,13 @@
 #include "blink.h"
 #include "reverse_int.h"
 #include "battingAverage.h"
+<<<<<<< HEAD
 #include "surface.h"
 
+=======
+#include "countWords.h"
+#include "printDate.h"
+>>>>>>> 4dc0d30a4767439d77ab3eae361d65a00bb49739
 using namespace std;
 int main()
 {
@@ -64,7 +77,7 @@ int main()
 	
 	switch (choice){
 		case 1: break;
-		case 2: break;
+		case 2: printDate();
 		case 3: randomNumGenerator();
 			break;
 		case 4: UTCtime();
@@ -81,22 +94,31 @@ int main()
 		case 10: name_story()
 			break;
 		case 11: battingAverage();break;
+<<<<<<< HEAD
 		case 12: break;
+=======
+		case 12: savefile(); break;
+>>>>>>> 4dc0d30a4767439d77ab3eae361d65a00bb49739
 		
 			break;
 		case 14: break;
 		case 15: tempConvert();
 		         break;
 		case 16: break;
-		case 17: break;
+		case 17: magic8ball();
+			break;
 		case 18: dothing();
 			break;
 		case 19: factorial();
 			 break;
 		case 20: break;
 		case 21: countWords();
+<<<<<<< HEAD
 	        case 22: surfaceArea();
 	                 break;
+=======
+		case 22: break;
+>>>>>>> 4dc0d30a4767439d77ab3eae361d65a00bb49739
 		case 23: break;
 		case 24: break;
 		case 25: countingLowercase();
