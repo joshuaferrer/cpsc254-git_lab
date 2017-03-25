@@ -2,7 +2,10 @@
 #include "func15.h"
 #include "factorial.h"
 #include "Git Lab 30.h"
-#include "salesTax.h
+#include "salesTax.h"
+
+#include "savefile.h"
+
 using namespace std;
 int main()
 {
@@ -58,7 +61,8 @@ int main()
 		case 9: break;
 		case 10: break;
 		case 11: break;
-		case 12: break;
+		case 12: savefile();
+			break;
 		case 13: reverse();
 			break;
 		case 14: break;
