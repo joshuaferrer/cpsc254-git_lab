@@ -19,6 +19,7 @@
 #include "blink.h"
 #include "reverse_int.h"
 #include "battingAverage.h"
+#include "countWords.h"
 
 using namespace std;
 int main()
@@ -98,7 +99,7 @@ int main()
 		case 19: factorial();
 			 break;
 		case 20: break;
-		case 21: break;
+		case 21: countWords();
 		case 22: break;
 		case 23: break;
 		case 24: break;
