@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+void printDate {
 
 
 	time_t t = time(0); 
