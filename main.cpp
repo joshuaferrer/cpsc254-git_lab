@@ -3,6 +3,7 @@
 #include "factorial.h"
 #include "Git Lab 30.h"
 #include "salesTax.h
+#include "randomNumGenerator.h"
 using namespace std;
 int main()
 {
