@@ -27,6 +27,7 @@
 
 
 #include "printDate.h"
+#include "surface.h"
 
 using namespace std;
 int main()
@@ -106,8 +107,8 @@ int main()
 			 break;
 		case 20: break;
 		case 21: countWords();
-         	case 22: surfaceArea();
-              	     break;
+          	case 22: surfaceArea();
+	                 break;
 		case 23: break;
 		case 24: break;
 		case 25: countingLowercase();
