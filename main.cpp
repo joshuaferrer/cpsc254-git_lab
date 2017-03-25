@@ -1,4 +1,7 @@
 #include <iostream>
+#include "func15.h"
+#include "factorial.h"
+#include "Git Lab 30.h"
 using namespace std;
 int main()
 {
@@ -54,13 +57,16 @@ int main()
 		case 10: break;
 		case 11: break;
 		case 12: break;
-		case 13: break;
+		case 13: reverse();
+			break;
 		case 14: break;
-		case 15: break;
+		case 15: tempConvert();
+		         break;
 		case 16: break;
 		case 17: break;
 		case 18: break;
-		case 19: break;
+		case 19: factorial();
+			 break;
 		case 20: break;
 		case 21: break;
 		case 22: break;
@@ -71,7 +77,8 @@ int main()
 		case 27: break;
 		case 28: break;
 		case 29: break;
-		case 30: break;
+		case 30: displayseason();
+			 break;
 		default: cout<<"Not a valid choice.\n"; break;
 	}
 	
