@@ -2,6 +2,7 @@
 #include "func15.h"
 #include "factorial.h"
 #include "Git Lab 30.h"
+#include "checkChars.h"
 using namespace std;
 int main()
 {
@@ -45,7 +46,8 @@ int main()
 	cin >> choice;
 	
 	switch (choice){
-		case 1: break;
+		case 1: totalChars();
+		         break;
 		case 2: break;
 		case 3: break;
 		case 4: break;
