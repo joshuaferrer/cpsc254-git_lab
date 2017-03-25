@@ -14,7 +14,7 @@
 #include "Name_Story.h"
 #include "blink.h"
 #include "reverse_int.h"
-
+#include "battingAverage.h"
 
 using namespace std;
 int main()
