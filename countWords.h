@@ -11,9 +11,8 @@ void countWords()
 	cout << "Enter the file's name: ";
 	getline(cin, file);
 	file.open(name.txt);
-	while(!file,eof())
+	while(file >> content)
 	{
-		file >> content;
 		word++;
 	}
 	cout << "There are " << word + 1 << " word(s) in your sentence." << endl;
