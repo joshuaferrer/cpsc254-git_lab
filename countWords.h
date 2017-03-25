@@ -15,5 +15,4 @@ int main()
 		cin.get(c);
 	}
 	cout << "There are " << word + 1 << " word(s) in your sentence." << endl;	
-	return 0;
 }
