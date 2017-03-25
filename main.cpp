@@ -6,6 +6,7 @@
 #include "savefile.h"
 #include "Magic8Ball.h"
 #include "randomNumGenerator.h"
+#include "milestokm.h"
 
 using namespace std;
 
@@ -57,7 +58,8 @@ int main()
 		case 4: break;
 		case 5: break;
 		case 6: break;
-		case 7: break;
+		case 7: converstionMilesToKM ();
+			break;
         case 8: salesTax();
             break;
 		case 9: break;
