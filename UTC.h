@@ -1,7 +1,7 @@
 #include <iostream>
 #include <time.h>
 
-int main ()
+void UTCtime()
 {
 	time_t rawtime;
 	struct tm * ptm;
