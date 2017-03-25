@@ -1,6 +1,7 @@
 #include <iostream>
 #include "func15.h"
 #include "factorial.h"
+#include "lowercase.cpp"
 using namespace std;
 int main()
 {
@@ -56,7 +57,7 @@ int main()
 		case 10: break;
 		case 11: break;
 		case 12: break;
-		case 13: reverse();
+		
 			break;
 		case 14: break;
 		case 15: tempConvert();
@@ -74,7 +75,8 @@ int main()
 		case 25: break;
 		case 26: break;
 		case 27: break;
-		case 28: break;
+		case 28: countingLowercase();
+			 break;
 		case 29: break;
 		case 30: break;
 		default: cout<<"Not a valid choice.\n"; break;
