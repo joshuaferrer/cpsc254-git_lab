@@ -21,6 +21,7 @@
 #include "battingAverage.h"
 #include "countWords.h"
 #include "printDate.h"
+#include "maxOfNum.h"
 using namespace std;
 int main()
 {
@@ -95,7 +96,8 @@ int main()
 			break;
 		case 19: factorial();
 			 break;
-		case 20: break;
+		case 20: maxList();
+			break;
 		case 21: countWords();
 		case 22: break;
 		case 23: break;
