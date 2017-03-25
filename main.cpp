@@ -1,12 +1,14 @@
 #include <iostream>
 #include "func15.h"
 #include "factorial.h"
+#include "UTC.h"
 #include "Git Lab 30.h"
 #include "salesTax.h"
 #include "savefile.h"
 #include "Magic8Ball.h"
 #include "randomNumGenerator.h"
 #include "milestokm.h"
+
 
 using namespace std;
 
@@ -55,7 +57,7 @@ int main()
 		case 1: break;
 		case 2: break;
 		case 3: break;
-		case 4: break;
+		case 4: UTCtime();
 		case 5: break;
 		case 6: break;
 		case 7: converstionMilesToKM ();
