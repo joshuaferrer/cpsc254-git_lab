@@ -6,7 +6,7 @@ int converstionMilesToKM (){
 
 double miles;
 
-cout << "Please Enter Miles To Convert To KM " ;
+cout << "Please Enter Miles To Convert To KM: " ;
 cin >>  miles ;
 cout << endl;
 cout <<  miles / 1.609344;
