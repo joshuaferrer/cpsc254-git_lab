@@ -8,15 +8,11 @@
 using namespace std;
 
 void savefile()  {
-	string title;
-	cout << "Enter a title for the note: ";
-	getline(cin, title);
-
 	string reminder;
-	cout << "Enter note for " << title << endl;
-	getline(cin, reminder);
+	cout << "Enter note: ";
+	cin >> reminder;
 
-	ofstream out(title.append(".txt").c_str());
+	ofstream out("note.txt");
 	out << reminder;
 	out.close();
 }

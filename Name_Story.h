@@ -6,7 +6,7 @@
 #include <ctime>
 #include <cstdlib>
 
-int main() {
+int name_story() {
 	std::string name;
 	int storyNumber;
 	std::cout << "Please imput your name" << std::endl;

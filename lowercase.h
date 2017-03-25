@@ -4,6 +4,7 @@
 #include <string>
 #include <fstream>
 #include <cctype>
+#include "main.cpp"
 using namespace std;
 
 
