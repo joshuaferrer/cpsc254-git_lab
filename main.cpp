@@ -83,7 +83,7 @@ int main()
 		case 10: name_story()
 			break;
 		case 11: battingAverage();break;
-		case 12: break;
+		case 12: savefile(); break;
 		
 			break;
 		case 14: break;
